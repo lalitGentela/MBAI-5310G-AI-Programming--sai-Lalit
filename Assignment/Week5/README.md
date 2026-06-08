@@ -89,32 +89,15 @@ A copy of the dataset (`df_clean`) is created. Column names are stripped of extr
 
 `StandardScaler` from scikit-learn is applied to standardise all numerical features to a mean of 0 and standard deviation of 1. This is critical for K-Means because the algorithm uses distance — unscaled features with larger ranges would dominate the clustering.
 
-```python
-scaler = StandardScaler()
-x_scaled = scaler.fit_transform(x)
-```
-
 ### 5.5 Elbow Method — Choosing the Best K
 
 The Elbow Method is used to find the optimal number of clusters. `KMeans` is trained for K values from 1 to 10, and the inertia (sum of squared distances to cluster centroids) is recorded for each K.
-
-```python
-for k in range(1, 11):
-    kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
-    kmeans.fit(x_scaled)
-    inertia.append(kmeans.inertia_)
-```
 
 **Elbow Analysis:** The inertia decreases sharply from K=1 to K=4. From K=4 onwards, the curve flattens gradually with no sharp drop. This means K=4 is where the rate of improvement meaningfully slows down — the elbow point is at **K=4**.
 
 ### 5.6 K-Means Model Training
 
 The final K-Means model is trained with `n_clusters=3`, `random_state=42`, and `n_init=10`. Cluster labels are assigned to each member using `fit_predict()`.
-
-```python
-kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
-cluster_labels = kmeans.fit_predict(x_scaled)
-```
 
 ### 5.7 Cluster Analysis & Segment Naming
 
