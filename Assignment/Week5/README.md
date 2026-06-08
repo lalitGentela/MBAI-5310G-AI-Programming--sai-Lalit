@@ -166,7 +166,7 @@ Two scatter plots are produced using `matplotlib`:
 
 FitLife Studio's K-Means Clustering model provides a data-driven approach to understanding customer segments and identifying members at risk of not renewing. The notebook covers a complete unsupervised learning pipeline: data loading, inspection, cleaning, feature scaling with `StandardScaler`, Elbow Method analysis, K-Means model training with `n_clusters=3`, cluster analysis, segment naming, and visualisation.
 
-The Elbow Method identified K=4 as the optimal number of clusters. Four meaningful customer segments were discovered — Loyal Engaged Members, Premium Dissatisfied Members, Budget Low-Activity Members, and At-Risk Complaint-Prone Members — each requiring a different retention strategy.
+The Elbow Method identified K=4 as the optimal number of clusters. Four meaningful customer segments were discovered are Loyal Engaged Members, Premium Dissatisfied Members, Budget Low-Activity Members, and At-Risk Complaint-Prone Members — each requiring a different retention strategy.
 
 Unlike supervised learning, this approach does not predict a known label. Instead, it helps FitLife discover hidden structure in member behaviour that can guide proactive, personalised retention decisions before the renewal deadline.
 
