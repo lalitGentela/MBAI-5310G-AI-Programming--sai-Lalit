@@ -155,10 +155,10 @@ Unlike supervised learning, this approach does not predict a known label. Instea
 
 ---
 
-## 10. References
+## Repository Structure
 
-Week5/
-├── AI_Assignment5.ipynb
-├── fitlife_membership_renewal_risk_dataset.csv
-├── business_plan_fitlife_membership_renewal.pdf
-└── README.md
+    Week5/
+    ├── AI_Assignment5.ipynb
+    ├── fitlife_membership_renewal_risk_dataset.csv
+    ├── business_plan_fitlife_membership_renewal.pdf
+    └── README.md
