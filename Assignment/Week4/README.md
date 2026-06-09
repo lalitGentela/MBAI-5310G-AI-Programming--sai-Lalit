@@ -155,3 +155,8 @@ Ultimately, the model is most valuable as a tool that increases consistency and 
     ├── smartloan_business_loan_decision_tree_dataset.xlsx
     ├── business_plan_smartloan_small_business_lending.pdf
     └── README.md
+
+ ## How to run
+
+     pip install pandas numpy scikit-learn matplotlib jupyter
+    jupyter notebook AI_Assignment_4.ipynb
