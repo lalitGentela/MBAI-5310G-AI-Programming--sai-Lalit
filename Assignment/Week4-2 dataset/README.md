@@ -179,10 +179,10 @@ The model should be used as a decision-support tool. Final intervention decision
 
 ---
 
-## 11. References
+## Repository Structure
 
-- SwiftShip Logistics Teaching Case — Synthetic Dataset for AI Programming / Business Analytics
-- Assignment 4 Jupyter Notebook — AI_Assignment_4_2dataset.ipynb
-- scikit-learn Documentation — DecisionTreeClassifier, OneHotEncoder, ColumnTransformer, train_test_split, evaluation metrics
-- pandas Documentation — DataFrame operations, missing value handling, duplicate removal
-- matplotlib Documentation — bar charts, plot_tree visualisation
+    Week4-2 dataset/
+    ├── AI_Assignment_4_2dataset.ipynb
+    ├──swiftship_delivery_delay_dataset.csv
+    ├── business_plan_swiftship_delivery_delay.pdf
+    └── README.md
