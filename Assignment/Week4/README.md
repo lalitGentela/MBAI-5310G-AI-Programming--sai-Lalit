@@ -148,9 +148,10 @@ Ultimately, the model is most valuable as a tool that increases consistency and 
 
 ---
 
-## 10. References
+## Repository Structure
 
-- SmartLoan Partners Teaching Case — Synthetic Dataset for AI Programming / Business Analytics
-- Assignment 4 Jupyter Notebook — AI_Assignment_4.ipynb
-- scikit-learn Documentation — DecisionTreeClassifier, train_test_split, evaluation metrics
-- pandas Documentation — DataFrame operations, missing value handling, duplicate removal
+    Week5/
+    ├── AI_Assignment_4.ipynb
+    ├── smartloan_business_loan_decision_tree_dataset.xlsx
+    ├── business_plan_smartloan_small_business_lending.pdf
+    └── README.md
