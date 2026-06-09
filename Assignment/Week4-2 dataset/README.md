@@ -186,3 +186,8 @@ The model should be used as a decision-support tool. Final intervention decision
     ├──swiftship_delivery_delay_dataset.xlsx
     ├── business_plan_swiftship_delivery_delay.pdf
     └── README.md
+
+## How to Run
+
+        pip install pandas numpy scikit-learn matplotlib jupyter
+        jupyter notebook AI_Assignment_4_2dataset.ipynb
