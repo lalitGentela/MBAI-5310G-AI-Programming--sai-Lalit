@@ -1,3 +1,15 @@
+## Repository Structure
+
+---
+
+Week5/
+├── AI_Assignment5.ipynb
+├── fitlife_membership_renewal_risk_dataset.csv
+├── business_plan_fitlife_membership_renewal.pdf
+└── README.md
+
+---
+
 # FitLife Studio Analytics — Membership Renewal Risk Prediction
 ### Business Plan & K-Means Clustering Analysis
 **AI Assignment 5**
