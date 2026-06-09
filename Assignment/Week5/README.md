@@ -162,3 +162,8 @@ Unlike supervised learning, this approach does not predict a known label. Instea
     ├── fitlife_membership_renewal_risk_dataset.xlsx
     ├── business_plan_fitlife_membership_renewal.pdf
     └── README.md
+
+## How to run
+
+    pip install pandas numpy scikit-learn matplotlib jupyter
+    jupyter notebook AI_Assignment5.ipynb
