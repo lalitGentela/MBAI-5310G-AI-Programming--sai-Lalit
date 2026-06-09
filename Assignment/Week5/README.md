@@ -157,8 +157,8 @@ Unlike supervised learning, this approach does not predict a known label. Instea
 
 ## 10. References
 
-- FitLife Studio Analytics Teaching Case — Synthetic Dataset for AI Programming / Business Analytics
-- Assignment 5 Jupyter Notebook — AI_Assignment5.ipynb
-- scikit-learn Documentation — KMeans, StandardScaler, fit_predict
-- pandas Documentation — DataFrame operations, groupby, missing value handling
-- matplotlib Documentation — scatter plots, Elbow Method visualisation
+Week5/
+├── AI_Assignment5.ipynb
+├── fitlife_membership_renewal_risk_dataset.csv
+├── business_plan_fitlife_membership_renewal.pdf
+└── README.md
