@@ -159,6 +159,6 @@ Unlike supervised learning, this approach does not predict a known label. Instea
 
     Week5/
     ├── AI_Assignment5.ipynb
-    ├── fitlife_membership_renewal_risk_dataset.csv
+    ├── fitlife_membership_renewal_risk_dataset.xlsx
     ├── business_plan_fitlife_membership_renewal.pdf
     └── README.md
