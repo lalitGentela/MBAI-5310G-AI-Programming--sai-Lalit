@@ -1,5 +1,4 @@
 
-Key Pointers for Presentation
 1. Problem Statement
 
 Business Problem: Predict which customers will get insurance claim approvals
