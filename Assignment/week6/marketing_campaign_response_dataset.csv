@@ -1,0 +1,381 @@
+customer_id,age,age_group,gender,region,membership_level,annual_income,previous_purchases,average_order_value,website_visits_last_month,emails_opened_last_month,ad_clicks_last_month,days_since_last_purchase,customer_service_contacts,discount_received,preferred_channel,campaign_response
+MC0001,21,18-25,Male,North,Gold,60937,6,356.21,2,12,8,144,2,No,Email,1
+MC0002,39,36-50,Male,South,Basic,83183,5,372.06,24,2,0,81,5,No,Email,1
+MC0003,23,18-25,Female,South,Gold,28783,18,384.9,30,8,7,215,0,No,Social Media,1
+MC0004,48,36-50,Female,East,Basic,126830,32,196.58,34,15,8,172,3,No,Email,1
+MC0005,59,51+,Female,North,Platinum,112255,16,92.2,21,17,6,227,0,No,Website,1
+MC0006,39,36-50,Female,South,Silver,134999,23,30.07,22,7,6,137,4,Yes,Social Media,1
+MC0007,66,51+,Female,West,Platinum,46153,34,200.58,29,1,0,35,3,Yes,Email,1
+MC0008,40,36-50,Male,West,Silver,26046,6,268.95,32,11,11,23,0,No,Email,1
+MC0009,42,36-50,Female,West,Basic,68265,16,402.53,2,17,5,107,2,Yes,SMS,1
+MC0010,44,36-50,Female,South,Basic,56797,5,350.78,3,16,6,138,2,Yes,Social Media,1
+MC0011,42,36-50,Male,South,Silver,70266,33,72.23,10,18,6,111,0,Yes,Website,1
+MC0012,40,36-50,Male,West,Basic,129692,1,87.64,20,16,8,143,1,No,Email,1
+MC0013,41,36-50,Female,East,Basic,92361,15,105.29,20,8,6,12,4,Yes,SMS,1
+MC0014,66,51+,Female,South,Basic,56268,5,262.04,5,10,8,138,1,Yes,Website,1
+MC0015,43,36-50,Female,East,Gold,134557,31,159.51,14,16,2,157,5,Yes,Website,1
+MC0016,55,51+,Female,North,Basic,86392,23,403.28,26,10,5,56,6,No,Social Media,1
+MC0017,30,26-35,Female,West,Platinum,34184,26,173.26,16,5,8,97,2,Yes,Social Media,1
+MC0018,34,26-35,Male,North,Platinum,32763,24,142.91,29,18,12,181,2,Yes,Website,1
+MC0019,46,36-50,Male,South,Platinum,85701,32,252.11,17,10,0,47,0,Yes,Website,1
+MC0020,64,51+,Female,West,Silver,87644,34,80.91,23,7,9,222,0,No,Social Media,1
+MC0021,18,18-25,Male,West,Basic,34209,16,137.61,26,11,6,12,4,Yes,Website,1
+MC0022,30,26-35,Female,East,Silver,126120,33,356.66,19,15,7,58,2,Yes,Email,1
+MC0023,52,51+,Male,South,Silver,34883,25,185.53,28,3,0,146,3,No,Social Media,0
+MC0024,26,26-35,Female,South,Platinum,30922,15,384.46,4,12,0,3,3,No,Email,1
+MC0025,33,26-35,Male,East,Platinum,65870,7,136.61,20,6,8,7,5,No,SMS,1
+MC0026,44,36-50,Female,West,Basic,50767,24,55.44,31,1,4,36,3,Yes,SMS,1
+MC0027,40,36-50,Female,West,Silver,63847,23,109.28,3,3,8,213,6,Yes,Social Media,1
+MC0028,67,51+,Female,West,Basic,42534,30,80.53,0,5,12,204,0,No,Email,1
+MC0029,32,26-35,Male,West,Platinum,112678,25,48.55,9,3,7,179,0,Yes,Email,1
+MC0030,31,26-35,Female,South,Gold,70755,9,60.31,0,9,5,172,3,No,SMS,1
+MC0031,21,18-25,Female,North,Platinum,63757,15,74.42,0,17,4,235,3,No,Social Media,1
+MC0032,44,36-50,Female,East,Basic,116470,0,341.19,32,0,10,76,0,No,SMS,1
+MC0033,46,36-50,Female,South,Basic,114916,4,100.71,22,13,12,124,2,Yes,Website,1
+MC0034,64,51+,Female,South,Gold,73909,11,64.82,6,8,1,229,0,No,Email,1
+MC0035,41,36-50,Female,East,Basic,107405,16,230.17,35,3,10,137,0,No,Social Media,1
+MC0036,58,51+,Male,West,Platinum,26701,5,356.33,6,14,6,210,2,Yes,SMS,1
+MC0037,44,36-50,Female,South,Platinum,131863,26,76.21,5,5,8,69,3,Yes,Website,1
+MC0038,22,18-25,Female,North,Gold,77601,17,249.53,34,6,4,80,4,No,Email,1
+MC0039,37,36-50,Male,South,Silver,91207,2,191.98,9,5,10,13,4,Yes,Email,1
+MC0040,30,26-35,Male,West,Gold,73858,4,398.21,13,2,7,11,4,No,Email,1
+MC0041,20,18-25,Female,North,Platinum,32653,26,339.88,30,12,5,170,1,No,Website,1
+MC0042,24,18-25,Female,North,Basic,112050,8,333.91,19,11,8,108,5,No,Social Media,1
+MC0043,29,26-35,Female,North,Gold,105155,9,230.3,6,14,10,64,5,No,Email,1
+MC0044,66,51+,Male,East,Silver,63252,34,326.62,21,6,2,11,2,Yes,Email,1
+MC0045,41,36-50,Male,South,Platinum,112154,4,116.45,24,4,8,174,5,Yes,Website,1
+MC0046,66,51+,Female,West,Basic,105262,26,335.24,17,10,10,124,1,Yes,Email,1
+MC0047,21,18-25,Female,East,Platinum,44389,9,343.86,10,12,11,208,1,Yes,SMS,1
+MC0048,49,36-50,Female,West,Basic,71899,32,277.19,14,2,6,192,6,No,Website,1
+MC0049,58,51+,Male,West,Silver,68901,28,208.22,7,1,11,91,2,No,SMS,1
+MC0050,53,51+,Male,East,Silver,30280,11,75.03,28,6,10,215,3,No,Email,1
+MC0051,59,51+,Female,East,Platinum,72721,34,147.75,4,11,3,204,0,Yes,SMS,1
+MC0052,18,18-25,Male,West,Basic,91477,4,340.43,11,11,3,85,5,No,Website,0
+MC0053,22,18-25,Male,West,Basic,59706,5,298.5,23,5,3,22,6,Yes,Website,1
+MC0054,59,51+,Male,West,Platinum,119668,2,188.77,6,9,8,101,3,No,Social Media,1
+MC0055,39,36-50,Female,North,Basic,77358,32,151.93,13,9,5,180,2,Yes,Social Media,1
+MC0056,41,36-50,Female,North,Silver,135887,9,107.16,15,15,8,57,6,No,SMS,1
+MC0057,48,36-50,Male,West,Silver,86718,17,197.36,18,2,10,101,6,No,Email,1
+MC0058,57,51+,Male,West,Silver,106306,33,76.08,3,5,11,107,6,No,Social Media,1
+MC0059,67,51+,Male,South,Platinum,57122,26,344.16,5,18,6,141,0,No,Website,1
+MC0060,26,26-35,Female,East,Silver,42823,8,406.04,19,13,2,42,3,No,SMS,1
+MC0061,30,26-35,Male,South,Silver,32446,19,392.14,12,14,0,47,1,No,SMS,1
+MC0062,24,18-25,Female,North,Basic,36953,11,385.55,27,5,1,143,4,Yes,SMS,1
+MC0063,44,36-50,Female,South,Silver,48390,28,327.11,23,12,0,158,3,No,Website,1
+MC0064,56,51+,Female,South,Basic,65238,28,224.78,12,5,8,44,1,No,Email,1
+MC0065,58,51+,Female,North,Silver,126421,25,116.36,14,13,11,223,0,No,Social Media,1
+MC0066,35,26-35,Female,South,Silver,50921,0,285.77,5,13,8,78,3,Yes,SMS,1
+MC0067,50,36-50,Female,West,Silver,38562,28,276.66,9,8,5,33,3,No,Social Media,1
+MC0068,49,36-50,Male,East,Basic,42308,14,409.94,16,8,9,135,0,Yes,Email,1
+MC0069,40,36-50,Male,West,Silver,45736,11,119.91,21,6,11,116,6,Yes,SMS,1
+MC0070,45,36-50,Male,West,Basic,101109,23,355.18,25,17,11,111,5,Yes,SMS,1
+MC0071,32,26-35,Female,South,Platinum,71074,28,343.36,20,0,10,120,2,No,Email,1
+MC0072,34,26-35,Female,East,Basic,49894,10,120.57,8,5,10,71,6,No,Website,0
+MC0073,54,51+,Male,East,Platinum,116964,20,338.52,4,7,11,197,3,No,Email,1
+MC0074,28,26-35,Male,East,Platinum,85936,34,318.57,2,1,3,38,3,No,SMS,1
+MC0075,49,36-50,Female,East,Platinum,43204,12,112.74,4,2,8,138,4,No,Website,0
+MC0076,30,26-35,Male,West,Gold,111047,12,228.97,13,6,0,170,5,Yes,Social Media,0
+MC0077,48,36-50,Male,South,Silver,77260,20,74.92,9,2,5,163,1,No,Email,1
+MC0078,21,18-25,Female,East,Silver,137141,2,281.01,25,10,10,28,1,Yes,Social Media,1
+MC0079,33,26-35,Male,East,Basic,69328,18,389.41,16,15,5,131,4,No,SMS,1
+MC0080,51,51+,Female,South,Basic,83002,3,288.31,25,15,10,55,1,No,Email,1
+MC0081,32,26-35,Female,South,Basic,83070,8,387.86,32,12,6,192,1,Yes,Email,1
+MC0082,58,51+,Female,South,Basic,139096,31,159.82,13,12,6,144,0,No,Website,1
+MC0083,62,51+,Female,West,Basic,55551,22,236.4,2,5,12,112,5,No,Website,1
+MC0084,63,51+,Female,North,Silver,107913,3,183.56,10,3,2,86,5,Yes,Social Media,0
+MC0085,66,51+,Female,West,Basic,35176,32,110.86,21,17,2,178,1,No,Website,1
+MC0086,60,51+,Female,North,Silver,86473,4,285.74,22,2,2,235,3,Yes,SMS,0
+MC0087,33,26-35,Female,North,Gold,60834,19,62.51,15,0,10,66,2,No,Email,1
+MC0088,37,36-50,Female,North,Gold,118861,17,56.15,33,16,6,63,2,No,Website,1
+MC0089,31,26-35,Male,West,Basic,128546,3,355.41,6,15,6,51,4,Yes,SMS,1
+MC0090,64,51+,Female,South,Platinum,138349,10,271.1,19,8,1,239,6,No,Email,1
+MC0091,35,26-35,Female,East,Basic,121547,29,158.75,8,14,10,36,6,No,Social Media,1
+MC0092,58,51+,Male,South,Basic,55389,29,149.27,5,15,3,115,3,Yes,Website,1
+MC0093,52,51+,Male,North,Gold,40094,28,294.78,8,15,6,36,5,No,Email,1
+MC0094,35,26-35,Female,South,Basic,106253,18,158.46,20,13,4,21,1,Yes,Website,1
+MC0095,67,51+,Female,East,Gold,55280,18,207.38,34,6,7,19,1,Yes,SMS,1
+MC0096,61,51+,Male,South,Basic,63129,5,184.47,15,13,11,209,3,Yes,Email,1
+MC0097,57,51+,Female,South,Silver,48418,18,148.32,3,7,7,58,0,Yes,Social Media,1
+MC0098,27,26-35,Male,North,Basic,86256,10,33.74,35,4,1,38,1,Yes,Email,1
+MC0099,33,26-35,Male,West,Silver,127126,33,227.16,11,13,7,25,0,No,SMS,1
+MC0100,42,36-50,Male,North,Silver,48718,12,381.86,11,15,0,104,6,Yes,Social Media,1
+MC0101,68,51+,Male,East,Gold,131186,7,328.93,30,10,1,228,1,No,Email,0
+MC0102,49,36-50,Male,North,Gold,125007,30,204.35,13,12,1,146,4,No,Social Media,1
+MC0103,30,26-35,Female,North,Basic,128093,33,390.3,12,5,4,106,2,Yes,Email,1
+MC0104,53,51+,Male,West,Silver,27864,20,288.4,26,18,5,146,2,No,Website,1
+MC0105,65,51+,Female,North,Platinum,114073,5,168.4,3,0,6,45,4,Yes,SMS,0
+MC0106,41,36-50,Male,South,Basic,48109,33,213.37,35,1,4,74,2,No,Email,1
+MC0107,52,51+,Female,East,Gold,60042,4,238.72,2,17,8,177,4,No,Email,0
+MC0108,34,26-35,Male,West,Basic,49643,35,100.21,13,18,7,106,1,Yes,SMS,1
+MC0109,44,36-50,Male,North,Platinum,63312,33,307.86,12,15,2,230,5,No,Social Media,1
+MC0110,53,51+,Male,North,Basic,114211,11,382.79,20,8,3,132,5,No,SMS,0
+MC0111,63,51+,Female,East,Silver,126118,22,365.83,27,11,12,127,3,Yes,Email,1
+MC0112,53,51+,Female,East,Platinum,90703,4,133.25,7,3,2,127,2,Yes,Social Media,1
+MC0113,58,51+,Female,East,Basic,40514,27,46.6,28,5,8,233,1,Yes,SMS,1
+MC0114,29,26-35,Female,North,Platinum,97729,10,332.48,15,10,0,138,5,Yes,Website,1
+MC0115,40,36-50,Female,East,Basic,82244,15,364.33,7,8,9,223,0,Yes,Email,1
+MC0116,57,51+,Female,East,Basic,124836,28,348.81,26,14,0,14,1,Yes,SMS,1
+MC0117,42,36-50,Female,South,Silver,139067,5,373.77,3,12,7,200,4,No,Website,0
+MC0118,23,18-25,Female,West,Silver,56736,7,261.57,27,11,8,52,3,No,Social Media,1
+MC0119,24,18-25,Female,West,Gold,87135,33,132.34,23,10,11,126,6,Yes,Social Media,1
+MC0120,29,26-35,Male,West,Gold,75249,28,231.65,19,11,8,124,1,No,Social Media,1
+MC0121,23,18-25,Male,East,Basic,126849,4,390.83,35,10,9,239,6,No,Email,1
+MC0122,29,26-35,Male,East,Basic,85374,2,146.56,25,16,2,84,1,No,SMS,1
+MC0123,24,18-25,Female,North,Basic,69355,33,392.51,24,15,4,233,1,Yes,Social Media,1
+MC0124,26,26-35,Male,East,Silver,114163,3,63.14,14,14,12,205,0,Yes,SMS,1
+MC0125,59,51+,Female,East,Silver,63993,3,29.61,35,6,2,88,5,No,Social Media,0
+MC0126,39,36-50,Male,West,Basic,35030,1,333.6,18,1,3,172,6,No,Website,0
+MC0127,39,36-50,Male,South,Gold,48374,21,147.16,26,14,8,66,6,No,Social Media,1
+MC0128,66,51+,Female,North,Gold,75048,1,94.04,29,1,2,165,0,Yes,SMS,0
+MC0129,63,51+,Male,South,Basic,124145,14,236.64,32,1,0,155,4,Yes,SMS,1
+MC0130,43,36-50,Female,South,Silver,136467,2,378.23,30,11,12,62,5,Yes,Website,1
+MC0131,41,36-50,Male,North,Basic,28319,32,384.57,34,15,4,9,3,No,Website,1
+MC0132,38,36-50,Male,South,Silver,98273,23,358.36,1,13,11,6,1,No,Email,1
+MC0133,59,51+,Male,South,Silver,125162,25,257.72,23,15,8,93,6,No,Social Media,1
+MC0134,36,36-50,Male,East,Silver,139810,24,321.31,10,0,11,48,5,No,Email,1
+MC0135,68,51+,Male,East,Platinum,36714,19,152.29,6,8,9,222,1,No,Social Media,1
+MC0136,34,26-35,Female,East,Basic,79612,3,368.96,26,2,8,160,2,Yes,SMS,1
+MC0137,34,26-35,Male,North,Silver,128311,1,369.89,30,10,7,161,0,No,SMS,1
+MC0138,33,26-35,Male,North,Silver,64213,27,186.83,14,8,10,46,0,No,Social Media,1
+MC0139,62,51+,Male,South,Basic,43498,30,301.04,19,4,0,150,3,Yes,Website,1
+MC0140,64,51+,Female,West,Basic,35530,12,360.65,18,11,6,19,4,Yes,Website,1
+MC0141,49,36-50,Male,South,Silver,127343,23,197.21,4,12,7,75,1,Yes,Website,1
+MC0142,47,36-50,Male,East,Gold,86126,33,264.92,18,15,12,146,0,No,Website,1
+MC0143,55,51+,Male,North,Basic,114504,7,147.02,12,17,1,38,4,Yes,SMS,1
+MC0144,58,51+,Female,West,Basic,40413,7,390.38,28,5,1,20,1,Yes,Social Media,1
+MC0145,65,51+,Female,East,Gold,41355,12,148.92,18,15,1,28,1,No,Website,1
+MC0146,45,36-50,Female,North,Basic,135933,15,266.43,18,2,2,163,6,Yes,Website,0
+MC0147,67,51+,Male,South,Silver,74744,25,259.68,13,15,2,118,6,No,Website,1
+MC0148,39,36-50,Female,West,Gold,113919,17,419.36,25,16,2,63,0,No,Email,1
+MC0149,33,26-35,Female,West,Basic,55849,30,159.34,31,8,3,231,6,No,Social Media,1
+MC0150,55,51+,Female,East,Silver,134298,7,286.6,14,16,9,61,0,Yes,SMS,1
+MC0151,44,36-50,Female,West,Basic,131574,34,237.54,20,4,10,186,2,Yes,Social Media,1
+MC0152,38,36-50,Female,West,Basic,62172,23,110.8,2,18,4,218,4,Yes,SMS,1
+MC0153,25,18-25,Male,West,Gold,138588,33,242.34,20,5,10,63,4,Yes,Website,1
+MC0154,65,51+,Female,North,Platinum,139797,13,357.17,27,14,5,8,1,No,Email,1
+MC0155,26,26-35,Male,West,Gold,58244,26,418.65,9,7,4,163,6,Yes,Email,1
+MC0156,22,18-25,Female,West,Gold,105580,0,314.56,5,5,10,171,3,Yes,Website,0
+MC0157,29,26-35,Male,North,Basic,96597,18,338.04,8,11,0,222,3,Yes,Social Media,0
+MC0158,42,36-50,Male,South,Silver,130599,13,408.66,33,12,11,197,4,Yes,Social Media,1
+MC0159,63,51+,Female,West,Basic,112833,31,325.4,14,12,11,166,4,Yes,Email,1
+MC0160,46,36-50,Male,South,Gold,59230,20,276.8,10,8,3,196,0,No,Email,1
+MC0161,31,26-35,Male,North,Basic,108896,19,232.4,27,6,2,144,0,Yes,SMS,1
+MC0162,28,26-35,Female,South,Basic,43065,21,117.84,4,16,10,75,0,Yes,SMS,1
+MC0163,62,51+,Female,East,Platinum,125210,9,129.87,10,7,7,108,3,Yes,Email,1
+MC0164,62,51+,Male,West,Basic,130617,2,124.76,32,16,11,221,0,No,SMS,1
+MC0165,33,26-35,Female,North,Silver,129835,26,258.92,18,11,1,31,4,No,Website,1
+MC0166,36,36-50,Male,South,Basic,41845,18,392.85,13,13,8,6,0,No,SMS,1
+MC0167,52,51+,Male,West,Platinum,139716,4,399.73,1,14,0,57,0,No,Email,1
+MC0168,64,51+,Male,North,Basic,48363,9,307.42,30,4,9,184,4,No,SMS,0
+MC0169,38,36-50,Female,West,Silver,64924,8,32.25,6,6,3,39,0,Yes,Email,1
+MC0170,28,26-35,Female,West,Basic,90548,12,334.63,26,1,0,8,0,No,Social Media,1
+MC0171,49,36-50,Female,South,Gold,122583,11,177.07,34,10,3,143,1,No,Website,1
+MC0172,40,36-50,Male,North,Basic,91874,32,241.94,34,7,6,77,6,No,SMS,1
+MC0173,21,18-25,Female,East,Gold,65328,19,153.28,35,15,0,176,0,Yes,Email,1
+MC0174,24,18-25,Male,East,Basic,101947,8,230.16,9,10,5,13,2,Yes,Website,1
+MC0175,55,51+,Male,West,Basic,86123,30,220.61,4,4,6,26,4,Yes,Social Media,1
+MC0176,51,51+,Male,East,Basic,105556,17,376.74,25,5,2,122,3,Yes,Email,1
+MC0177,44,36-50,Male,West,Basic,104374,20,323.19,20,12,2,133,1,Yes,Email,1
+MC0178,38,36-50,Female,North,Platinum,78596,30,166.73,23,8,6,192,4,No,Email,1
+MC0179,27,26-35,Female,South,Silver,99430,0,37.77,19,17,6,168,2,Yes,Email,1
+MC0180,53,51+,Male,West,Basic,136376,34,333.39,26,13,4,132,5,Yes,Email,1
+MC0181,41,36-50,Female,West,Basic,116089,23,37.25,4,13,2,24,6,No,Social Media,1
+MC0182,67,51+,Male,East,Silver,28028,19,206.83,31,18,10,20,0,Yes,Email,1
+MC0183,32,26-35,Male,North,Basic,55407,13,398.2,6,3,7,83,0,No,SMS,1
+MC0184,62,51+,Female,South,Gold,47201,9,264.39,24,0,12,232,4,Yes,Email,1
+MC0185,34,26-35,Female,North,Basic,64268,13,112.68,19,17,4,140,2,Yes,SMS,1
+MC0186,50,36-50,Male,South,Silver,62819,26,39.77,34,9,10,143,0,Yes,Social Media,1
+MC0187,42,36-50,Female,North,Basic,62932,27,307.01,11,12,2,159,0,Yes,Email,1
+MC0188,35,26-35,Male,North,Platinum,28501,30,200.05,25,12,0,110,5,Yes,Email,1
+MC0189,36,36-50,Female,East,Basic,57071,20,157.13,9,12,12,180,2,Yes,Email,1
+MC0190,44,36-50,Female,North,Silver,38822,25,34.58,10,17,6,15,3,Yes,SMS,1
+MC0191,19,18-25,Female,West,Basic,57423,16,183.59,16,10,7,184,4,Yes,Website,1
+MC0192,44,36-50,Male,West,Silver,104674,28,28.05,24,5,10,7,2,No,Email,1
+MC0193,62,51+,Male,North,Platinum,115224,13,71.34,14,3,12,83,2,Yes,SMS,1
+MC0194,68,51+,Female,West,Platinum,133772,15,188.84,6,15,2,64,1,Yes,SMS,1
+MC0195,60,51+,Female,West,Silver,79996,29,289.91,12,18,6,141,2,No,Email,1
+MC0196,49,36-50,Female,East,Platinum,67765,9,74.87,0,15,4,120,6,No,Social Media,1
+MC0197,20,18-25,Female,South,Silver,51893,17,376.48,23,13,10,76,1,Yes,Social Media,1
+MC0198,37,36-50,Male,South,Gold,69976,26,143.87,29,8,7,239,0,Yes,Social Media,1
+MC0199,26,26-35,Female,North,Basic,61382,21,95.35,2,12,6,81,0,Yes,SMS,1
+MC0200,41,36-50,Male,South,Basic,36612,32,66.58,11,12,1,170,6,No,SMS,1
+MC0201,63,51+,Male,North,Silver,127520,27,321.7,3,14,0,143,3,Yes,Social Media,1
+MC0202,34,26-35,Female,West,Basic,47040,29,106,28,11,2,239,2,No,Social Media,1
+MC0203,41,36-50,Female,East,Basic,86938,18,65.78,18,10,1,47,2,Yes,Social Media,1
+MC0204,61,51+,Female,East,Gold,94087,7,86,14,5,11,233,0,Yes,Website,1
+MC0205,59,51+,Female,West,Basic,30989,27,94.55,11,10,11,31,3,No,Email,1
+MC0206,22,18-25,Male,East,Platinum,86331,18,125.94,31,6,7,232,2,Yes,Email,1
+MC0207,53,51+,Female,East,Basic,131939,34,275.88,14,9,9,159,4,No,Website,1
+MC0208,59,51+,Male,West,Silver,92309,28,307.76,18,6,12,151,3,Yes,Email,1
+MC0209,49,36-50,Male,North,Basic,35946,12,415.61,0,1,5,81,2,No,Social Media,0
+MC0210,57,51+,Male,South,Basic,125364,29,293.02,5,6,2,131,6,No,Website,1
+MC0211,22,18-25,Male,East,Basic,134018,11,311.27,24,16,2,123,0,No,Website,1
+MC0212,63,51+,Male,North,Basic,82192,4,385.94,15,0,4,30,1,No,Email,0
+MC0213,23,18-25,Female,East,Gold,35769,33,45.44,19,6,5,117,4,No,Email,1
+MC0214,67,51+,Female,East,Gold,114997,32,395.23,1,5,7,55,1,Yes,Email,1
+MC0215,54,51+,Male,South,Basic,64338,1,334.39,31,8,0,54,4,Yes,Website,1
+MC0216,22,18-25,Female,West,Basic,111760,31,346.93,34,8,10,17,0,Yes,Email,1
+MC0217,52,51+,Male,South,Silver,98298,14,111.4,18,3,1,59,4,Yes,Website,1
+MC0218,54,51+,Female,North,Silver,51058,34,30.21,28,16,0,238,5,No,SMS,1
+MC0219,60,51+,Female,North,Gold,83564,34,93.83,24,11,5,167,0,No,Social Media,1
+MC0220,57,51+,Female,West,Platinum,42278,30,266.09,0,2,5,72,2,No,Website,1
+MC0221,31,26-35,Female,East,Gold,48096,28,64.63,18,7,12,41,1,No,SMS,1
+MC0222,25,18-25,Male,South,Basic,59311,29,240.99,3,18,7,202,6,Yes,Social Media,1
+MC0223,50,36-50,Male,East,Silver,126978,26,82.54,29,13,2,78,5,No,Email,1
+MC0224,49,36-50,Female,East,Basic,121728,11,202.84,3,4,5,196,0,Yes,Social Media,0
+MC0225,27,26-35,Female,East,Platinum,96566,29,234.79,31,10,1,12,0,No,SMS,1
+MC0226,46,36-50,Male,North,Basic,75373,15,222.15,27,16,9,212,0,No,Website,1
+MC0227,51,51+,Male,West,Gold,34390,35,150.69,28,5,8,37,6,Yes,Social Media,1
+MC0228,65,51+,Male,West,Silver,88261,35,161.41,31,5,4,113,3,Yes,Website,1
+MC0229,61,51+,Female,South,Gold,98518,28,183.31,24,0,8,210,4,Yes,Email,1
+MC0230,66,51+,Female,West,Silver,84627,31,186.06,34,3,0,76,4,Yes,SMS,1
+MC0231,38,36-50,Male,West,Basic,63575,29,342.38,23,14,1,10,2,No,Website,1
+MC0232,32,26-35,Male,North,Basic,139704,21,240.21,16,7,12,211,5,No,SMS,1
+MC0233,19,18-25,Female,East,Basic,52065,8,36.1,17,4,4,61,0,Yes,Website,1
+MC0234,33,26-35,Female,South,Basic,99770,16,256.19,5,0,9,226,3,No,Website,0
+MC0235,21,18-25,Female,North,Platinum,114575,15,282.09,31,9,9,64,1,No,Email,1
+MC0236,29,26-35,Female,South,Gold,72227,5,69.42,6,16,12,214,1,No,SMS,1
+MC0237,58,51+,Female,East,Basic,97905,24,273.26,26,4,3,29,4,Yes,Website,1
+MC0238,27,26-35,Male,East,Silver,84332,29,66.57,13,6,2,12,3,No,SMS,1
+MC0239,42,36-50,Female,West,Silver,131113,27,300.17,9,6,3,93,6,Yes,Email,1
+MC0240,22,18-25,Female,West,Basic,49567,14,208.65,26,17,3,141,4,Yes,Website,1
+MC0241,59,51+,Female,North,Basic,60682,16,253.09,14,4,9,5,2,No,Social Media,1
+MC0242,51,51+,Female,South,Basic,119518,34,335.07,20,2,12,136,6,No,Website,1
+MC0243,39,36-50,Female,South,Basic,100808,15,80.73,7,2,1,79,3,No,Email,0
+MC0244,68,51+,Male,East,Gold,111109,6,101.52,12,5,5,112,4,No,Website,1
+MC0245,50,36-50,Male,West,Silver,73183,25,306.66,27,9,8,83,2,No,SMS,1
+MC0246,19,18-25,Female,South,Silver,56148,34,291.37,16,4,6,229,5,Yes,Social Media,1
+MC0247,61,51+,Male,West,Basic,124603,27,39.06,18,15,3,34,2,Yes,Social Media,1
+MC0248,68,51+,Male,East,Gold,101379,7,56.55,13,1,12,181,4,Yes,SMS,0
+MC0249,24,18-25,Male,West,Basic,117910,0,120.27,23,4,7,164,6,Yes,Website,1
+MC0250,22,18-25,Female,North,Basic,84430,21,332.52,6,10,4,186,2,No,Website,1
+MC0251,28,26-35,Male,West,Gold,108120,5,348.74,1,17,12,65,4,No,Website,1
+MC0252,64,51+,Female,East,Basic,75950,7,242.56,24,6,8,57,6,Yes,Social Media,1
+MC0253,29,26-35,Male,North,Gold,97339,30,363.39,18,18,12,152,3,No,Email,1
+MC0254,54,51+,Male,South,Basic,128151,4,305.16,14,16,6,235,1,No,Website,1
+MC0255,21,18-25,Female,South,Silver,103467,16,181.88,17,14,6,11,1,No,Social Media,1
+MC0256,54,51+,Male,South,Basic,64024,12,52.4,1,14,12,85,0,Yes,Email,1
+MC0257,26,26-35,Female,West,Basic,130671,17,386.46,25,5,11,83,0,Yes,Email,1
+MC0258,29,26-35,Female,West,Platinum,126659,21,311.85,18,4,8,3,0,Yes,Social Media,1
+MC0259,44,36-50,Female,West,Basic,66819,4,194.72,10,16,5,221,6,Yes,Email,0
+MC0260,61,51+,Male,North,Basic,84708,28,25.14,13,10,5,87,6,No,SMS,1
+MC0261,34,26-35,Female,West,Basic,30009,19,101.61,35,5,11,70,4,No,Email,1
+MC0262,40,36-50,Male,South,Basic,39020,10,117.78,3,16,8,75,0,No,Email,1
+MC0263,42,36-50,Male,South,Silver,33906,3,146.4,7,3,3,127,6,No,SMS,0
+MC0264,35,26-35,Male,East,Basic,48774,5,303.1,10,2,5,221,3,No,Social Media,0
+MC0265,68,51+,Female,North,Basic,59992,26,372.09,1,6,9,1,2,Yes,SMS,1
+MC0266,68,51+,Female,South,Basic,59326,22,118.56,13,10,7,142,0,Yes,Website,1
+MC0267,53,51+,Male,South,Gold,126349,19,292.55,12,11,8,47,5,Yes,Email,1
+MC0268,48,36-50,Male,West,Basic,77206,14,344.98,4,18,7,207,0,Yes,Email,1
+MC0269,39,36-50,Male,North,Silver,46553,9,56.56,21,12,12,116,5,No,Email,1
+MC0270,44,36-50,Male,East,Basic,137643,9,387.61,0,6,12,121,4,No,Social Media,1
+MC0271,43,36-50,Female,West,Basic,134878,23,387.2,1,7,4,128,6,Yes,SMS,1
+MC0272,28,26-35,Female,North,Gold,45951,35,312.55,0,2,11,74,0,No,SMS,1
+MC0273,29,26-35,Female,East,Platinum,91549,2,87.68,7,15,0,64,4,Yes,Email,0
+MC0274,22,18-25,Male,East,Gold,63031,12,206.77,21,4,2,187,2,No,SMS,0
+MC0275,32,26-35,Female,West,Gold,72845,4,156.57,16,15,0,100,2,Yes,SMS,0
+MC0276,40,36-50,Female,East,Silver,42991,23,398.69,9,10,4,239,6,Yes,SMS,1
+MC0277,68,51+,Male,East,Silver,44862,28,160.03,10,1,1,181,2,No,SMS,1
+MC0278,52,51+,Male,West,Gold,117547,0,110.57,30,4,0,200,3,No,Social Media,0
+MC0279,55,51+,Male,South,Basic,73082,4,284.77,9,16,3,161,0,Yes,Website,1
+MC0280,31,26-35,Male,East,Basic,70560,22,206.22,24,14,4,114,5,No,SMS,1
+MC0281,48,36-50,Female,West,Gold,41433,2,39.17,3,12,4,92,4,No,SMS,1
+MC0282,58,51+,Female,West,Gold,119448,12,90.34,35,14,2,175,3,No,SMS,1
+MC0283,47,36-50,Male,West,Silver,45264,13,137.51,14,11,7,180,1,Yes,Social Media,1
+MC0284,46,36-50,Female,West,Basic,135079,35,290.82,33,8,10,177,3,Yes,SMS,1
+MC0285,18,18-25,Male,North,Basic,35851,34,388.71,10,1,3,224,0,Yes,Social Media,1
+MC0286,42,36-50,Male,North,Platinum,96397,27,101.12,28,14,6,203,1,No,Social Media,1
+MC0287,34,26-35,Male,North,Gold,109820,2,208.85,12,1,5,127,0,Yes,Email,0
+MC0288,54,51+,Male,North,Platinum,27409,28,130.43,25,3,0,239,0,No,SMS,1
+MC0289,22,18-25,Male,South,Silver,61762,29,216.62,23,4,1,98,6,No,Website,1
+MC0290,25,18-25,Female,South,Basic,52445,28,291.88,16,1,11,163,2,No,Website,1
+MC0291,64,51+,Male,East,Silver,109803,14,228.68,15,6,2,119,3,Yes,Social Media,1
+MC0292,62,51+,Male,South,Gold,57286,34,319.29,22,3,9,208,6,Yes,Social Media,1
+MC0293,19,18-25,Female,East,Silver,44073,32,390.68,8,1,11,13,4,Yes,Website,1
+MC0294,67,51+,Male,West,Basic,117778,3,352.54,23,6,10,148,4,Yes,Social Media,1
+MC0295,54,51+,Male,East,Platinum,139176,17,302.1,8,16,1,47,5,No,Email,1
+MC0296,18,18-25,Male,West,Basic,48221,25,62.74,23,5,11,180,2,No,Social Media,1
+MC0297,53,51+,Female,East,Basic,29101,26,312.24,30,17,11,120,6,No,SMS,1
+MC0298,66,51+,Male,North,Silver,116765,34,140.92,13,4,2,72,3,Yes,Website,1
+MC0299,55,51+,Female,North,Silver,98363,21,121.46,27,2,9,90,1,No,Website,1
+MC0300,30,26-35,Male,West,Basic,103163,30,349.37,9,3,12,40,0,Yes,SMS,1
+MC0301,56,51+,Male,North,Basic,113607,7,231.88,6,5,1,195,0,No,Website,0
+MC0302,26,26-35,Male,East,Gold,40874,20,29.19,23,17,12,197,0,Yes,SMS,1
+MC0303,48,36-50,Male,West,Silver,131941,9,96.03,0,11,12,129,6,Yes,Email,1
+MC0304,27,26-35,Female,East,Basic,55059,31,262.4,1,16,9,65,0,No,Website,1
+MC0305,29,26-35,Male,West,Basic,33473,12,322.78,27,5,2,156,3,Yes,Social Media,1
+MC0306,26,26-35,Female,North,Basic,104283,2,336.09,34,9,7,88,2,Yes,Social Media,1
+MC0307,28,26-35,Female,East,Platinum,104042,10,205.86,19,9,11,232,0,Yes,SMS,1
+MC0308,20,18-25,Female,West,Gold,88735,9,111.55,13,10,10,144,5,No,SMS,1
+MC0309,48,36-50,Female,South,Silver,111198,25,113.49,22,3,9,41,6,Yes,Social Media,1
+MC0310,68,51+,Male,East,Silver,47555,17,30.56,19,2,10,108,6,No,Email,1
+MC0311,29,26-35,Male,North,Basic,133173,12,301.29,22,5,8,59,2,No,Email,1
+MC0312,23,18-25,Male,East,Basic,34722,12,122.46,35,1,4,171,3,Yes,Social Media,0
+MC0313,63,51+,Male,West,Silver,83052,4,87.98,27,15,1,70,4,No,Email,1
+MC0314,47,36-50,Male,West,Silver,135333,20,297.83,27,5,8,151,2,No,SMS,1
+MC0315,26,26-35,Male,West,Basic,124795,13,237.95,20,14,7,189,0,No,Email,1
+MC0316,29,26-35,Female,East,Silver,79184,12,361.9,12,5,2,36,4,Yes,Social Media,1
+MC0317,53,51+,Male,West,Basic,122294,7,166.15,35,2,10,234,2,Yes,Website,0
+MC0318,61,51+,Male,West,Basic,36493,1,211.94,23,15,7,192,3,Yes,Email,1
+MC0319,35,26-35,Female,North,Basic,106545,14,352.9,32,17,9,102,3,Yes,Social Media,1
+MC0320,20,18-25,Male,West,Gold,92627,7,41.05,32,12,4,78,3,No,Website,1
+MC0321,62,51+,Male,West,Basic,129195,31,415.35,16,18,5,27,2,Yes,Website,1
+MC0322,19,18-25,Female,South,Gold,63649,10,398.33,15,1,12,167,6,No,Website,1
+MC0323,57,51+,Male,East,Basic,108596,8,96.81,32,1,3,90,2,Yes,Email,0
+MC0324,56,51+,Male,North,Basic,124993,33,271.56,7,11,4,163,1,Yes,Social Media,1
+MC0325,20,18-25,Male,East,Gold,117367,8,84.87,24,5,5,9,6,Yes,Email,1
+MC0326,45,36-50,Female,West,Basic,32416,22,395.37,8,0,12,166,2,Yes,Website,1
+MC0327,31,26-35,Male,West,Silver,51684,23,273.14,6,5,10,101,6,Yes,SMS,1
+MC0328,32,26-35,Female,South,Basic,59869,3,274.79,3,8,8,71,6,Yes,SMS,0
+MC0329,19,18-25,Female,North,Gold,99021,7,219.12,35,16,4,8,6,Yes,SMS,1
+MC0330,63,51+,Male,East,Basic,86705,32,109.1,8,12,5,134,2,No,SMS,1
+MC0331,51,51+,Male,South,Basic,110684,24,142.53,28,3,10,130,5,Yes,Website,1
+MC0332,48,36-50,Female,South,Silver,107474,19,33.17,23,8,7,230,2,No,SMS,1
+MC0333,47,36-50,Female,North,Gold,41167,12,299.48,8,9,0,214,0,No,Email,0
+MC0334,62,51+,Female,West,Basic,67948,0,90.47,11,11,5,165,4,Yes,Website,1
+MC0335,57,51+,Female,West,Silver,60317,10,399.43,22,0,7,26,2,Yes,Email,1
+MC0336,49,36-50,Female,East,Gold,88178,11,117.2,19,6,4,61,0,Yes,SMS,1
+MC0337,66,51+,Male,North,Silver,63736,4,305.75,19,2,7,126,2,No,SMS,0
+MC0338,24,18-25,Male,East,Silver,48430,29,129.01,30,0,10,26,0,Yes,Social Media,1
+MC0339,46,36-50,Male,East,Basic,29021,14,355.68,5,15,12,55,3,Yes,Social Media,1
+MC0340,35,26-35,Male,North,Gold,39355,21,52.63,24,14,2,46,6,Yes,Social Media,1
+MC0341,50,36-50,Female,East,Platinum,40165,10,97.94,11,11,6,206,4,No,Social Media,1
+MC0342,57,51+,Female,South,Basic,95555,30,380.05,27,17,12,10,3,No,SMS,1
+MC0343,42,36-50,Male,East,Silver,136909,15,152.99,8,7,12,179,1,Yes,Email,1
+MC0344,31,26-35,Female,North,Gold,105941,5,279.99,30,18,7,202,0,Yes,SMS,1
+MC0345,34,26-35,Female,North,Silver,31549,8,89.39,26,13,12,201,6,Yes,Website,1
+MC0346,25,18-25,Female,South,Silver,121183,12,177.69,8,0,8,147,3,Yes,Social Media,1
+MC0347,64,51+,Female,East,Gold,117757,23,359.97,23,10,2,238,0,No,Website,0
+MC0348,67,51+,Female,West,Basic,29381,1,339.54,5,15,10,32,0,No,Website,1
+MC0349,64,51+,Male,South,Basic,43248,14,372.82,25,2,2,180,2,Yes,Social Media,0
+MC0350,39,36-50,Female,East,Basic,45630,23,48.92,6,5,12,187,5,Yes,Social Media,1
+MC0351,19,18-25,Female,West,Platinum,96959,3,120.35,13,3,4,53,2,No,Website,1
+MC0352,66,51+,Male,East,Silver,47990,31,253.6,7,11,5,165,5,Yes,Email,1
+MC0353,36,36-50,Male,West,Silver,89418,32,150.87,0,10,7,135,6,No,Email,1
+MC0354,63,51+,Female,South,Silver,105940,33,294.76,13,2,6,180,4,No,Email,0
+MC0355,27,26-35,Female,North,Basic,135705,25,189.28,35,0,7,229,2,No,Website,1
+MC0356,31,26-35,Female,North,Platinum,73692,2,215.25,15,8,4,140,1,No,Email,1
+MC0357,43,36-50,Female,East,Silver,87679,13,373.6,34,16,5,71,3,Yes,Social Media,1
+MC0358,54,51+,Male,South,Silver,56914,30,312.39,10,2,4,110,6,Yes,Email,1
+MC0359,39,36-50,Male,South,Basic,137418,21,339.31,5,3,7,225,3,No,Website,0
+MC0360,54,51+,Female,West,Basic,49209,4,119.68,2,1,7,235,4,No,Email,0
+MC0361,47,36-50,Male,East,Platinum,87212,15,226.11,26,2,1,156,5,Yes,SMS,1
+MC0362,60,51+,Male,North,Basic,34216,21,356.12,34,6,7,156,6,Yes,SMS,1
+MC0363,49,36-50,Male,West,Basic,131364,27,210.49,0,7,4,40,4,Yes,SMS,1
+MC0364,44,36-50,Female,North,Platinum,89775,25,197.34,33,13,4,32,1,Yes,Email,1
+MC0365,43,36-50,Male,North,Basic,93526,35,319.27,8,4,11,89,4,Yes,Social Media,1
+MC0366,58,51+,Female,West,Basic,93275,15,378.57,10,15,5,186,4,Yes,Website,1
+MC0367,65,51+,Male,North,Platinum,31734,18,414.2,9,6,5,10,1,Yes,Website,1
+MC0368,22,18-25,Female,North,Silver,117594,14,287.07,7,4,5,98,6,No,SMS,0
+MC0369,63,51+,Male,East,Basic,86576,30,345.99,24,2,0,180,1,No,SMS,0
+MC0370,20,18-25,Female,South,Silver,50804,7,257.52,8,9,0,208,6,Yes,SMS,0
+MC0371,55,51+,Female,East,Platinum,119593,25,400.02,0,12,6,224,5,No,SMS,1
+MC0372,24,18-25,Female,West,Basic,71149,13,347.07,3,13,7,8,5,No,SMS,1
+MC0373,62,51+,Female,South,Gold,95784,13,370.94,22,4,0,146,6,Yes,SMS,1
+MC0374,46,36-50,Female,North,Platinum,110417,0,29.49,19,0,9,140,5,No,SMS,1
+MC0375,18,18-25,Male,East,Basic,109853,32,339.51,32,16,3,169,2,Yes,SMS,1
+MC0376,47,36-50,Female,West,Silver,125642,13,418.16,14,14,12,145,5,No,Email,1
+MC0377,33,26-35,Female,North,Gold,118084,35,295.75,15,7,8,169,2,Yes,Website,1
+MC0378,52,51+,Male,North,Silver,137027,1,140.95,29,6,12,145,2,No,Social Media,1
+MC0379,35,26-35,Female,West,Basic,38604,6,229.22,35,4,11,44,1,Yes,SMS,1
+MC0380,32,26-35,Female,East,Silver,88780,7,390.69,35,5,0,223,3,No,Email,0
