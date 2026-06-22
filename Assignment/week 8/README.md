@@ -230,10 +230,10 @@ Reviews may contain bias or emotional exaggeration
 Human oversight is required for sensitive feedback
 
 
-Week8/
-├── AI_Assignment_8.pdf
-├── NLP_Dataset_5_Hotel_Guest_Service_Area.xlsx
-└── README.md
+     Week8/
+     ├── AI_Assignment_8.pdf
+     ├── NLP_Dataset_5_Hotel_Guest_Service_Area.xlsx
+     └── README.md
 
 
 
