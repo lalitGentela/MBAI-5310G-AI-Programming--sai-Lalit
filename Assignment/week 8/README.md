@@ -1,4 +1,4 @@
-1. Business Overview
+# 1. Business Overview
 
 Lakeside Hotel Group is a multi‑city hospitality brand offering family rooms, suites, conference accommodations, and business travel services. The company receives hundreds of guest reviews across platforms such as Google Reviews, TripAdvisor, Booking.com, and email surveys. These reviews contain valuable feedback about guest experiences, but manually reading and categorizing them is time‑consuming and inconsistent.
 
@@ -25,7 +25,7 @@ Booking Issues
 | Target Variable | ServiceArea |
 | Goal | Automatically classify reviews to support faster issue resolution and service improvement |
 
-2. Business Problem
+# 2. Business Problem
 
 Guest reviews contain critical information about operational strengths and weaknesses. However, the hotel faces several challenges:
 
@@ -38,7 +38,7 @@ Guest reviews contain critical information about operational strengths and weakn
 | Multi‑platform reviews | Data is scattered | Centralize insights for management |
 
 
-3. Why Text Classification?
+# 3. Why Text Classification?
 
 Unlike numeric datasets, guest reviews are unstructured text. NLP (Natural Language Processing) allows the hotel to convert this text into meaningful insights.
 
@@ -49,7 +49,7 @@ Unlike numeric datasets, guest reviews are unstructured text. NLP (Natural Langu
 | Algorithm | Logistic Regression, Decision Tree | Logistic Regression with TF‑IDF |
 | Output | Numeric prediction | Service area classification |
 
-4. Dataset & Columns Used
+# 4. Dataset & Columns Used
 
 The dataset contains 120 guest reviews. Each row represents one review submitted by a hotel guest.
 
@@ -63,7 +63,7 @@ The dataset contains 120 guest reviews. Each row represents one review submitted
 | GuestType | Family, Business, Solo, etc. |
 | Rating | Guest rating from 1–5 |
 
-5. Notebook Workflow
+# 5. Notebook Workflow
 
 5.1 Data Loading & Inspection
 
@@ -167,7 +167,7 @@ It supports multi‑class classification
 
 It is fast and interpretable
 
-6. Model Evaluation
+# 6. Model Evaluation
 
 6.1 Accuracy
 
@@ -191,7 +191,7 @@ Booking_Issue and Staff_Service have lower scores due to overlapping vocabulary
 | Booking_Issue | Check_In | Booking problems occur at arrival |
 | Room_Cleanliness | Breakfast | Words like “dirty” appear in both |
 
-7. Business Interpretation of Model Results
+# 7. Business Interpretation of Model Results
 
 | Insight | Business Meaning |
 | --- | --- |
@@ -213,7 +213,7 @@ Enhance guest satisfaction
 
 Reduce negative reviews online
 
-8. Limitations
+# 8. Limitations
 
 Dataset is small (120 reviews)
 
