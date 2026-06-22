@@ -229,6 +229,7 @@ Reviews may contain bias or emotional exaggeration
 
 Human oversight is required for sensitive feedback
 
+Repository Structure
 
      Week8/
      ├── AI_Assignment_8.pdf
