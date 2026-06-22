@@ -1,237 +1,227 @@
-🧾 1. Project Overview
-This project builds a complete end‑to‑end Natural Language Processing (NLP) and Machine Learning pipeline to classify hotel guest reviews into specific service areas. The goal is to help hotel management automatically understand what guests are talking about—whether it’s Room Cleanliness, Check‑In, Breakfast, Staff Service, Location, or Booking Issues.
+1. Business Overview
+Lakeside Hotel Group is a multi‑city hospitality brand offering family rooms, suites, conference accommodations, and business travel services. The company receives hundreds of guest reviews across platforms such as Google Reviews, TripAdvisor, Booking.com, and email surveys. These reviews contain valuable feedback about guest experiences, but manually reading and categorizing them is time‑consuming and inconsistent.
 
-The workflow follows the same structure as a real‑world machine learning project:
+To improve service quality and operational efficiency, the hotel wants to automatically classify each guest review into one of its core service departments:
 
-Understanding the business problem
+Room Cleanliness
 
-Loading and inspecting the dataset
+Check‑In Experience
 
-Text preprocessing
+Breakfast Service
 
-Exploratory text analysis
-
-POS tagging and Named Entity Recognition
-
-Feature extraction using TF‑IDF
-
-Building a classification model
-
-Evaluating the model
-
-Business interpretation and insights
-
-This README explains each step in detail so anyone can understand the full pipeline.
-
-🏨 2. Business Problem
-Lakeside Hotel Group collects guest reviews from multiple platforms such as Google Reviews, TripAdvisor, Booking.com, and email surveys. These reviews contain valuable information about guest experiences, but manually reading and categorizing them is time‑consuming.
-
-The hotel wants to automatically classify each review into one of six service areas:
-
-Room_Cleanliness
-
-Check_In
-
-Breakfast
-
-Staff_Service
+Staff Service
 
 Location
 
-Booking_Issue
+Booking Issues
 
-This classification helps hotel managers:
+| Business Element | Description |
+| --- | --- |
+| Company Name | Lakeside Hotel Analytics |
+| Business Area | Hospitality, Guest Experience, Service Quality |
+| Business Decision | Identify which department each guest review refers to |
+| ML Task | Multi‑class text classification using NLP |
+| Target Variable | ServiceArea |
+| Goal | Automatically classify reviews to support faster issue resolution and service improvement |
 
-Identify which departments receive the most complaints
+2. Business Problem
+Guest reviews contain critical information about operational strengths and weaknesses. However, the hotel faces several challenges:
 
-Detect recurring operational issues
+| Business Challenge | Why It Matters | Possible Business Action |
+| --- | --- | --- |
+| Manual review of feedback is slow | Important complaints may be missed | Automate classification to route issues instantly |
+| Mixed topics in reviews | Hard to identify which department is responsible | Assign each review to the correct service area |
+| Repeated complaints in certain areas | Indicates systemic service failures | Prioritize staff training or operational fixes |
+| High volume of reviews | Staff cannot read everything | Use NLP to summarize and categorize feedback |
+| Multi‑platform reviews | Data is scattered | Centralize insights for management |
 
-Improve service quality
 
-Prioritize staff training
+3. Why Text Classification?
+Unlike numeric datasets, guest reviews are unstructured text. NLP (Natural Language Processing) allows the hotel to convert this text into meaningful insights.
 
-Enhance overall guest satisfaction
+| Concept | Numeric ML | NLP Text Classification (This Assignment) |
+| --- | --- | --- |
+| Input | Numbers | Raw text reviews |
+| Goal | Predict numeric/label outcome | Predict service area from text |
+| Algorithm | Logistic Regression, Decision Tree | Logistic Regression with TF‑IDF |
+| Output | Numeric prediction | Service area classification |
 
-This is a multi‑class text classification problem, where the goal is to predict the service area based on the review text.
+4. Dataset & Columns Used
+The dataset contains 120 guest reviews. Each row represents one review submitted by a hotel guest.
 
-📂 3. Dataset Description
-The dataset contains 120 hotel guest reviews with the following columns:
+| Column | Meaning |
+| --- | --- |
+| GuestReview | Raw text written by the guest |
+| ServiceArea | Target label (6 categories) |
+| ReviewChannel | Source of review (Google, TripAdvisor, etc.) |
+| HotelCity | City of the hotel |
+| RoomType | Type of room booked |
+| GuestType | Family, Business, Solo, etc. |
+| Rating | Guest rating from 1–5 |
 
-GuestReview → The raw text written by the guest
+5. Notebook Workflow
+5.1 Data Loading & Inspection
+The dataset is loaded using pandas. Initial inspection includes:
 
-ServiceArea → The target label (6 categories)
+df.shape
 
-ReviewChannel → Source of the review
+df.columns
 
-HotelCity → City of the hotel
+df.head()
 
-RoomType, GuestType, Rating → Additional metadata
+df.isnull().sum()
 
-For this project:
+df['ServiceArea'].value_counts()
 
-GuestReview is used as the main text feature
+This helps understand the structure and distribution of service categories.
 
-ServiceArea is the target variable
+5.2 Text Preprocessing
+A cleaned version of the review text is created using:
 
-🧹 4. Text Preprocessing
-To prepare the text for machine learning, several NLP preprocessing steps were applied:
+Lowercasing
 
-✔️ Lowercasing
-All text was converted to lowercase to ensure consistency.
+Removing punctuation
 
-✔️ Removing punctuation
-Symbols like “!”, “?”, “#”, and commas were removed.
+Removing stopwords
 
-✔️ Tokenization
-Text was split into individual words using NLTK.
+Tokenization
 
-✔️ Stopword removal
-Common words like the, is, in, at were removed because they do not add meaning.
+Lemmatization
 
-✔️ Lemmatization
-Words were reduced to their base form (e.g., cleaning → clean).
+Creating a CleanedReview column
 
-✔️ CleanedReview column
-A new column was created containing the cleaned text.
+This step ensures the text is standardized and ready for feature extraction.
 
-These steps reduce noise and help the model focus on meaningful words.
+5.3 Exploratory Text Analysis
+Word frequency analysis is performed using:
 
-🔍 5. Exploratory Text Analysis
-Before modeling, the text was analyzed to understand common patterns.
+Counter()
 
-✔️ Most frequent words
-Words like room, breakfast, staff, location, reservation, dirty, wait, key appeared frequently.
+Bar charts of most common words
 
-✔️ Interpretation
-Frequent mentions of dirty, towel, floor → cleanliness concerns
+Insights include:
 
-Words like waited, key, check → check‑in issues
+Frequent mentions of room, breakfast, staff, location, reservation
 
-Words like coffee, buffet, eggs → breakfast service
+Negative words like dirty, cold, waited
 
-Words like location, walking, near → location satisfaction
+Positive words like helpful, fresh, professional
 
-Words like reservation, confirmation → booking problems
+This confirms that reviews naturally align with the six service areas.
 
-This confirms that the dataset naturally aligns with the six service areas.
-
-🧠 6. POS Tagging & Named Entity Recognition (NLTK)
+5.4 POS Tagging & Named Entity Recognition
 Using NLTK:
 
-✔️ POS Tagging
-Identified nouns, verbs, and adjectives:
+POS Tagging identifies nouns, verbs, adjectives
 
-Nouns: room, breakfast, staff, reservation, location
+NER identifies names, locations, dates, and organizations
 
-Verbs: waited, ignored, charged, handled
+Examples:
 
-Adjectives: dirty, cold, noisy, helpful
+PERSON: Michael, Anna
 
-These reveal what guests talk about and how they describe their experience.
+GPE: Toronto, Niagara Falls
 
-✔️ Named Entity Recognition
-Detected:
+DATE: July 2
 
-People: Michael, Anna
+ORG: TripAdvisor, Booking.com
 
-Locations: Toronto, Niagara Falls, Halifax
+These insights help understand guest sentiment and operational context.
 
-Dates: July 2, June 10
+5.5 Feature Extraction (TF‑IDF)
+TF‑IDF Vectorizer converts cleaned text into numerical features.
 
-Organizations: TripAdvisor, Booking.com
+Vocabulary size: 2000 words
 
-These entities help identify patterns across cities, staff members, and platforms.
+Output: Sparse matrix representing word importance
 
-🔢 7. Feature Extraction (TF‑IDF)
-The cleaned text was converted into numerical features using TF‑IDF (Term Frequency–Inverse Document Frequency).
+TF‑IDF highlights meaningful words like dirty, reservation, breakfast, location.
 
-TF‑IDF highlights important words in each review
+5.6 Train-Test Split
+The dataset is split into:
 
-A vocabulary of 2000 features was created
+80% training
 
-The output is a sparse matrix used for model training
+20% testing
 
-TF‑IDF is ideal for text classification because it emphasizes meaningful words like dirty, reservation, breakfast, location.
+Stratified by service area to maintain class balance
 
-🤖 8. Model Building (Logistic Regression)
-A Logistic Regression model was trained using:
+5.7 Model Training — Logistic Regression
+Logistic Regression is used because:
 
-X_train → TF‑IDF features
-
-y_train → ServiceArea labels
-
-Logistic Regression was chosen because:
-
-It works well with high‑dimensional TF‑IDF data
+It handles high‑dimensional TF‑IDF data well
 
 It supports multi‑class classification
 
 It is fast and interpretable
 
-The model learned patterns in the text to predict the correct service area.
+6. Model Evaluation
+6.1 Accuracy
+Accuracy measures how many reviews were correctly classified.
 
-📊 9. Model Evaluation
-The model was evaluated using:
+6.2 Classification Report
+Shows precision, recall, and F1‑score for each service area.
 
-✔️ Accuracy
-Shows how many reviews were correctly classified.
+Typical findings:
 
-✔️ Classification Report
-Provides precision, recall, and F1‑score for each service area.
+Location and Breakfast perform best
 
-✔️ Confusion Matrix
-Shows which categories were confused with each other.
+Booking_Issue and Staff_Service have lower scores due to overlapping vocabulary
 
-Common correct predictions:
-Location (clear keywords like “walking”, “near”)
+6.3 Confusion Matrix
 
-Breakfast (words like “coffee”, “buffet”, “eggs”)
+| Actual | Predicted | Reason |
+| --- | --- | --- |
+| Staff_Service | Check_In | Both involve staff interactions |
+| Booking_Issue | Check_In | Booking problems occur at arrival |
+| Room_Cleanliness | Breakfast | Words like “dirty” appear in both |
 
-Common misclassifications:
-Staff_Service ↔ Check_In
+7. Business Interpretation of Model Results
 
-Booking_Issue ↔ Check_In
+| Insight | Business Meaning |
+| --- | --- |
+| Frequent cleanliness complaints | Housekeeping needs improvement |
+| Check‑in delays mentioned often | Front desk staffing or process issues |
+| Breakfast complaints about empty items | Food service needs better replenishment |
+| Staff names appear in reviews | Identify high-performing or low-performing employees |
+| Booking issues repeated | Reservation system or third‑party platforms need review |
 
-Room_Cleanliness ↔ Breakfast
+The model helps the hotel:
 
-These errors occur when reviews mention multiple topics or ambiguous wording.
+Route complaints to the correct department
 
-💼 10. Business Interpretation
-✔️ What the model predicts
-The model predicts which hotel department a guest is referring to in their review.
+Identify recurring operational issues
 
-✔️ Why this is useful
-Helps managers identify problem areas
+Improve service quality
 
-Reduces manual review time
+Enhance guest satisfaction
 
-Supports data‑driven decision making
+Reduce negative reviews online
 
-Improves guest satisfaction by addressing recurring issues
+8. Limitations
 
-✔️ Key insight from the data
-Guests frequently mention:
-
-Staff behavior
-
-Check‑in delays
-
-Breakfast quality
-
-Room cleanliness
-
-These areas strongly influence guest satisfaction.
-
-⚠️ 11. Limitations
-Small dataset (120 reviews)
+Dataset is small (120 reviews)
 
 Some reviews are short and lack detail
 
-Overlapping vocabulary between categories
+Overlapping vocabulary reduces classification accuracy
 
 TF‑IDF does not capture deep semantic meaning
 
-A larger dataset or transformer models (e.g., BERT) would improve accuracy
+More advanced models (BERT, LSTM) could improve performance
 
-🏁 12. Conclusion
-This project demonstrates a complete NLP and machine learning pipeline for classifying hotel guest reviews. By combining text preprocessing, TF‑IDF feature extraction, and Logistic Regression, the model can automatically categorize reviews into meaningful service areas. This helps hotel management quickly identify operational issues and improve service quality.
+Reviews may contain bias or emotional exaggeration
+
+Human oversight is required for sensitive feedback
+
+
+Week8/
+├── AI_Assignment_8.pdf
+├── NLP_Dataset_5_Hotel_Guest_Service_Area.xlsx
+└── README.md
+
+
+
+
+
+
